@@ -13,6 +13,28 @@ body {
   color: #434455;
   background-color: #ffffffff;
 }
+.container {
+  width: 1200px;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  margin-left: 156px;
+}
+
+.header-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-adress {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 156px;
+}
 
 .logo-web {
   color: var(--iris);
@@ -95,6 +117,7 @@ body {
   color: #ffffffff;
   background-color: #4d5ae5;
 }
+
 .last-section {
   background-color: #f4f4fd;
 }

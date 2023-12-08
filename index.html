@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,15 +19,16 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="container">
     <!--Hero section-->
     <header>
       <!--Logo-->
-      <nav class="list">
+      <div class="nav-bar">
+        <nav class="list header-logo">
         <a class="logo-web link" href="./index.html"
           >Web<span class="logo-studio link">Studio</span></a
         >
-        <ul class="list">
+        <ul class="list header-link">
           <li>
             <a class="nav-link link" href="./index.html">Studio</a>
           </li>
@@ -30,10 +38,12 @@
           <li><a class="nav-link link" href="">Contacts</a></li>
         </ul>
       </nav>
+     
+      
 
       <!--Contact info-->
       <address class="contacts">
-        <ul class="list">
+        <ul class="list  header-adress">
           <li>
             <a class="address link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -46,13 +56,14 @@
           </li>
         </ul>
       </address>
+    </div>
     </header>
     <!--MAIN SECTION-->
     <main>
       <!--Hero section img  -->
       <section class="main-section">
         <h1 class="main-header">Effective Solutions for Your Business</h1>
-        <button class="button button-light" type="button">Order Service</button>
+        <button class="button  button-light" type="button">Order Service</button>
       </section>
       <!--Section 1-->
       <section>
