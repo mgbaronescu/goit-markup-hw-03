@@ -13,17 +13,18 @@ body {
   color: #434455;
   background-color: #ffffffff;
 }
-.container {
-  width: 1200px;
+.header{
+  border-bottom: 1px solid var(--cornflower);
 }
-.nav-bar {
+.container {
   display: flex;
   align-items: center;
-  width: 1440px;
-background-color: var(--cornflower);
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0px 15px;
 }
 .header-logo {
-  margin-left: 156px;
+  margin-right: 76px
 }
 
 .header-link {
