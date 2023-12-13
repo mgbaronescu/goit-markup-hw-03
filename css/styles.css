@@ -107,6 +107,20 @@ body {
   background-color: var(--navy-blue);
   padding: 188px 0;
 }
+  .visually-hidden {
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path:inset(100%);
+    clip:rect(0 0 0 0);
+    overflow: hidden;
+}
+ 
+
 .main-header {
   background-color: var(--navy-blue);
   font-size: 56px;
@@ -125,7 +139,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 12px 24px ;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px ;
+
 }
+
 .button-light {
   color: #ffffffff;
   background-color: var(--iris);
@@ -134,14 +153,17 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+
 }
 .button:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .button:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .second-buttons {
   display: flex;
@@ -149,6 +171,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
 .main-section-one {
