@@ -31,15 +31,17 @@ img {
 }
 .header-logo {
   margin-right: 76px;
+  display: flex;
+  align-items: center;
 }
 
 .header-link {
-  display: inline-flex;
+  display:flex;
   align-items: center;
   gap: 40px;
 }
 .header-adress {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 40px;
   margin-left: 156px;
@@ -59,6 +61,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-weight: 800;
+  margin-right: 76px;
 }
 .link {
   text-decoration: none;
@@ -209,6 +212,12 @@ img {
   width: calc(360px * 4 + 32px);
   flex-wrap: wrap;
 }
+.img-container{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 
 .last-section {
   padding: 120px 0;
@@ -265,14 +274,14 @@ img {
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
-  margin-left: 156px;
+ 
 }
 .footer-paragraf {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-left: 156px;
+  
 }
 .logo-studio-footer {
   color: #f4f4fd;
