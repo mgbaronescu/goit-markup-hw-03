@@ -279,6 +279,10 @@ img {
   background-color: var(--navy-blue);
   padding: 100px 0;
 }
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
