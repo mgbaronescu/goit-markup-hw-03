@@ -28,6 +28,7 @@ img {
 }
 .container-flex {
   display: flex;
+  justify-content: space-between;
 }
 .header-logo {
   margin-right: 76px;
@@ -44,7 +45,6 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-left: 156px;
 }
 .none {
   display: none;
@@ -231,12 +231,13 @@ img {
 }
 
 .header-description {
-  color: var(--navy-blue);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--navyblue);
+    margin-bottom 8px;
 }
 .team-member {
   width: calc((100% - 72px) / 4);
@@ -255,13 +256,14 @@ img {
 }
 
 .paragraf {
-  color: var(--slate);
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--slate, #434455);
 }
 .about {
-  background-color: #ffffffff;
+ 
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
