@@ -192,7 +192,7 @@ img {
   margin-right: 24px;
 }
 .list-one {
-  width: calc(100% - 3 * 24px);
+  width: 264px;
 }
 .section-one {
   padding: 120px 0;
@@ -231,13 +231,13 @@ img {
 }
 
 .header-description {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-    color: var(--navyblue);
-    margin-bottom 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 .team-member {
   width: calc((100% - 72px) / 4);
@@ -257,13 +257,12 @@ img {
 
 .paragraf {
   font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--slate, #434455);
 }
 .about {
- 
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
